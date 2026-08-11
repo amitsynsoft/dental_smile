@@ -1,19 +1,27 @@
-import { Button } from "@/components/ui/button"
+import { TopHeaderBar } from "@/components/dental/TopHeaderBar"
+import { DentalNavbar } from "@/components/dental/DentalNavbar"
+import { DentalHero } from "@/components/dental/DentalHero"
+import { PracticeHighlights } from "@/components/dental/PracticeHighlights"
+import { DentalServices } from "@/components/dental/DentalServices"
+import { MeetTheDoctor } from "@/components/dental/MeetTheDoctor"
+import { PatientReviews } from "@/components/dental/PatientReviews"
+import { InsuranceAndInfo } from "@/components/dental/InsuranceAndInfo"
+import { LocationAndHours } from "@/components/dental/LocationAndHours"
+import { DentalFooter } from "@/components/dental/DentalFooter"
 
-export default function Page() {
+export default function Home() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
-    </div>
+    <main className="min-h-screen bg-white font-sans text-slate-900 selection:bg-sky-100 selection:text-sky-900">
+      <TopHeaderBar />
+      <DentalNavbar />
+      <DentalHero />
+      <PracticeHighlights />
+      <DentalServices />
+      <MeetTheDoctor />
+      <PatientReviews />
+      <InsuranceAndInfo />
+      <LocationAndHours />
+      <DentalFooter />
+    </main>
   )
 }
