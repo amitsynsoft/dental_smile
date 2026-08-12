@@ -43,7 +43,7 @@ export function AIDemo() {
       aiPrompt:
         "I'd like to book a routine dental cleaning and comprehensive check-up exam.",
       aiReply:
-        "Great! Preventive care keeps your smile healthy. Dr. Jennifer Smith  has opening slots available this week at BrightSmile Dental. Please select a time that fits your schedule:",
+        "Great! Preventive care keeps your smile healthy. Dr. Jennifer Smith  has opening slots available this week at BrightSmiles Dental. Please select a time that fits your schedule:",
     },
     {
       id: "Tooth Pain",
@@ -61,7 +61,7 @@ export function AIDemo() {
       aiPrompt:
         "I'm a new patient in town looking for a primary dentist and comprehensive consultation.",
       aiReply:
-        "Welcome to BrightSmile Dental! We're excited to meet you. New patient visits include full digital X-rays and consultation with Dr. Johnson. Choose an available slot:",
+        "Welcome to BrightSmiles Dental! We're excited to meet you. New patient visits include full digital X-rays and consultation with Dr. Johnson. Choose an available slot:",
     },
     {
       id: "Cosmetic Consultation",
@@ -140,7 +140,7 @@ export function AIDemo() {
                   </div>
                   <div>
                     <h3 className="text-base font-bold text-white">
-                      BrightSmile Dental
+                      BrightSmiles Dental
                     </h3>
                     <p className="text-xs font-medium text-sky-400">
                       Dr. Jennifer Smith , DDS
@@ -264,7 +264,7 @@ export function AIDemo() {
                   </div>
                   <div className="max-w-[90%] rounded-2xl rounded-tl-xs border border-slate-800 bg-slate-900 p-4 text-sm text-slate-100 shadow-md">
                     <div className="mb-1 text-[10px] font-bold tracking-wider text-sky-400 uppercase">
-                      SmileGuide AI • BrightSmile Dental
+                      SmileGuide AI • BrightSmiles Dental
                     </div>
                     <p className="mb-4 leading-relaxed">
                       {currentOption.aiReply}
@@ -367,7 +367,7 @@ export function AIDemo() {
                     <span className="font-semibold text-sky-400">
                       {selectedComplaint}
                     </span>{" "}
-                    has been locked into BrightSmile Dental schedule.
+                    has been locked into BrightSmiles Dental schedule.
                   </p>
                 </div>
 
@@ -393,7 +393,7 @@ export function AIDemo() {
                   <div className="flex justify-between">
                     <span className="text-slate-400">Location:</span>
                     <span className="font-semibold text-white">
-                      BrightSmile Dental • Suite 400
+                      BrightSmiles Dental • Suite 400
                     </span>
                   </div>
                 </div>
@@ -416,7 +416,7 @@ export function AIDemo() {
                 <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
                 Live Demo Environment
               </span>
-              <span>BrightSmile Dental Practice #1042</span>
+              <span>BrightSmiles Dental Practice #1042</span>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ export function DentalFooter() {
               <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-sky-500 text-xs font-bold text-white">
                 SD
               </div>
-              Smile Dental
+              Smiles Dental
             </div>
             <p className="text-xs leading-relaxed text-slate-400">
               Providing gentle, patient-centered family & cosmetic dentistry to
@@ -148,7 +148,7 @@ export function DentalFooter() {
         {/* Footer Bottom Bar */}
         <div className="flex flex-col items-center justify-between gap-4 border-t border-slate-800 pt-8 text-[11px] text-slate-500 sm:flex-row">
           <p>
-            © {new Date().getFullYear()} Smile Dental. All rights reserved.
+            © {new Date().getFullYear()} Smiles Dental. All rights reserved.
             Member of ADA & KDA.
           </p>
           <div className="flex gap-4">

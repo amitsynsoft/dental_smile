@@ -18,7 +18,7 @@ export function MeetTheDoctor() {
               <div className="relative overflow-hidden rounded-[2rem] border-4 border-white bg-slate-100 shadow-2xl">
                 <Image
                   src="/doctor.png"
-                  alt="Dr. Jennifer Smith , DDS - Lead Dentist at Smile Dental"
+                  alt="Dr. Jennifer Smith , DDS - Lead Dentist at Smiles Dental"
                   width={550}
                   height={650}
                   className="h-auto w-full object-cover transition-transform duration-500 hover:scale-103"
@@ -29,7 +29,7 @@ export function MeetTheDoctor() {
               <div className="absolute -bottom-6 -left-6 hidden w-44 overflow-hidden rounded-2xl border-4 border-white bg-slate-100 shadow-xl sm:block">
                 <Image
                   src="/clinic-suite.png"
-                  alt="Smile Dental modern treatment suite"
+                  alt="Smiles Dental modern treatment suite"
                   width={200}
                   height={150}
                   className="h-auto w-full object-cover"

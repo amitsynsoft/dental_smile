@@ -74,7 +74,7 @@ export function DentalHero() {
 
             {/* Subheadline */}
             <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
-              Welcome to <strong>Smile Dental</strong>. Dr. Jennifer Smith and
+              Welcome to <strong>Smiles Dental</strong>. Dr. Jennifer Smith and
               our compassionate clinical team provide gentle family, preventive,
               and cosmetic dentistry in Overland Park. Experience personalized
               care in a calm, welcoming environment.
@@ -146,7 +146,7 @@ export function DentalHero() {
               <div className="relative overflow-hidden rounded-[2rem] border-4 border-white bg-slate-100 shadow-2xl">
                 <Image
                   src="/hero-patient.png"
-                  alt="Dr. Jennifer Smith  examining a patient at Smile Dental"
+                  alt="Dr. Jennifer Smith  examining a patient at Smiles Dental"
                   width={600}
                   height={650}
                   className="h-auto w-full object-cover transition-transform duration-700 hover:scale-102"
